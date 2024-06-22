@@ -1,0 +1,497 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    width: 100%;
+    height: 28px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+    padding: 0 10px;
+}
+
+nav a:hover{
+   color: rgb(184, 181, 181);
+}
+
+nav .search a{
+    color: white;
+    font-size: 11px;
+    padding: 10px;
+}
+
+.title{
+    margin: 30px 0;
+    text-align: center;
+}
+
+.title h2{
+    padding: 15px 0 10px 0;
+    font-size: 30px;
+    letter-spacing: -2px;
+    text-transform: uppercase;
+    font-weight: 900;
+    opacity: 0.9;
+}
+.title p{
+    font-size: 10px;
+    font-weight: 600;
+}
+.title p span{
+    background-color: black;
+    color: white;
+    padding: 3px 5px;
+}
+
+.hero{
+    background-image: url(image/jane.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+    padding-left: 20px;
+    background-position: top;
+}
+
+.hero .inf{
+    position: absolute;
+    top: 30%;
+}
+
+.hero p{
+    color:white;
+    font-size: 30px;
+    font-weight: 500; 
+}
+.hero h3{
+    color: white;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: -2px;
+    padding: 3px 0 12px 0;
+}
+.hero button{
+    padding: 10px 17px;
+    background-color: rgb(219, 216, 216);
+    border: none;
+    color: black;
+    cursor: pointer;
+}
+.hero button:hover{
+    background-color: white;
+}
+
+
+.blog{
+    width: 100%;
+    /* background-color: #f1f1f1; */
+    background-color: #f1f1f1;
+    padding: 10px;
+    display: flex;
+}
+.blog .left{
+    width: 70%;
+}
+.blog .left .div{
+    margin-bottom: 20px;
+    background-color: white;
+    padding: 10px;
+}
+.blog .left h4{
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 8px;
+    font-size: 13px;
+    padding-top: 5px;
+}
+.blog .left p{
+    text-align: center;
+    font-size: 9px;
+    padding-bottom: 10px;
+}
+.blog .left p span{
+    color: rgb(135, 133, 133);
+}
+.blog .left .dec{
+    width: 100%;
+}
+.blog .left .dec img{
+    width: 100%;
+}
+.blog .left .dec p{
+    text-align: start;
+    line-height: 13px;
+    padding: 8px 3px;
+}
+
+.blog .left .dec .btn{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3px;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.blog .left .dec .btn .btn1{
+    border: 1px solid black;
+    padding: 3px 7px;
+    font-size: 10px;
+    margin-left: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.blog .left .dec .btn .btn1:hover{
+    background-color: #b7b4b4;
+    border: none;
+}
+.blog .left .dec .btn .btn1 i{
+    margin-right: 4px;
+}
+
+.blog .left .dec .btn .btn2{
+    background-color: black;
+    border: none;
+    color: white;
+    font-size: 9px;
+    padding: 4px 7px;
+    cursor: pointer;
+}
+.blog .left .dec .btn .btn2:hover{
+    background-color: #b7b4b4;
+    color: black;
+    font-weight: bold;
+}
+.blog .left .dec .btn .btn2 span{
+    background-color: white;
+    color: black;
+    padding: 1px 2px;
+}
+ /* .clint{
+     width: 100%; 
+     display: flex;
+    align-items: center;
+    background-color: rebeccapurple;
+}
+.clint .img{
+     width: 60%;
+}
+.clint .img img{
+    width: 30%;
+    padding: 6px;
+}
+.clint .text p{
+    text-align: start;
+}
+.clint .text p{
+    text-align: start;
+    font-size: 9px;
+    padding-bottom: 0;
+}
+.clint .text p span{
+    color: rgb(135, 133, 133);
+}  */
+
+/* .clint{
+    width: 100%;
+    display: flex;
+}
+.clint .img{
+    display: inline-block;
+}
+.clint .img img{
+    width: 30%;
+}
+.clint .text p{
+    text-align: start;
+    font-size: 9px;
+    padding-bottom: 0;
+}
+.clint .text p span{
+    color: rgb(135, 133, 133);
+} */
+
+
+
+
+
+
+
+
+
+
+.blog .right{
+    width: 30%;
+    margin-left: 10px;
+    padding: 0 10px 10px 10px;
+}
+.blog .right .model{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.blog .right .model img{
+    width: 100%;
+}
+.blog .right .model .con{
+    background-color: black;
+}
+.blog .right .model .con h5{
+    color: white;
+    padding: 15px 15px 0px 15px;
+}
+.blog .right .model .con p{
+    color: white;
+    width: 100%;
+    padding: 10px 15px 15px 15px;
+    font-size: 9px;
+    line-height: 13px;
+}
+
+
+.blog .right .post{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.blog .right .post h5{
+    background-color: black;
+    color: white;
+    padding: 15px 10px;
+}
+.blog .right .post .col{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-bottom: 1px solid rgb(135, 133, 133);
+}
+.blog .right .post .col:hover{
+    background-color: rgb(135, 133, 133);
+}
+.blog .right .post .col img{
+    width: 20%;
+    padding: 9px;
+}
+.blog .right .post .col .detail h6{
+    font-size: 13px;
+    font-weight: 500;
+    padding-bottom: 2px;
+    font-weight: lighter;
+}
+.blog .right .post .col .detail p{
+    font-size: 11px;
+    opacity: 0.9;
+    font-weight: lighter;
+}
+
+
+.blog .right .ads{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.blog .right .ads h5{
+    background-color: black;
+    color: white;
+    padding: 15px 10px;
+}
+
+.blog .right .ads .box{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blog .right .ads .box .amt{
+    width: 80%;
+    height: 150px;
+    border-radius: 10px;
+    background-color: rgb(135, 133, 133);
+}
+
+
+.blog .right .tags{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.blog .right .tags h5{
+    background-color: black;
+    color: white;
+    padding: 15px 10px;
+}
+.blog .right .tags .item{
+    background-color: white;
+    padding: 10px;
+}
+.blog .right .tags .item span{
+    font-size: 10px;
+    background-color: #b7b4b4;
+    padding: 2px;
+}
+
+
+
+.blog .right .insp{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.blog .right .insp h5{
+    background-color: black;
+    color: white;
+    padding: 15px 10px;
+}
+
+.blog .right .insp .img{
+    width: 100%;
+    background-color: white;
+}
+
+.blog .right .insp .img .to{
+    display: flex;
+    width: 100%;
+    padding: 10px 5px 10px 10px;
+}
+.blog .right .insp .img .to img{
+    width: 50%;
+    padding-right: 10px;
+}
+
+.blog .right .foll{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.blog .right .foll h5{
+    background-color: black;
+    color: white;
+    padding: 15px 10px;
+}
+.blog .right .foll .icon{
+    width: 100%;
+    background-color: white;
+    padding: 10px 0;
+}
+.blog .right .foll .icon a{
+    color: black;
+    text-decoration: none;
+    padding-left: 7px;
+}
+.blog .right .foll .icon a:hover{
+    color: rgb(135, 133, 133);
+}
+
+
+
+.blog .right .sub{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.blog .right .sub h5{
+    background-color: black;
+    color: white;
+    padding: 15px 10px;
+}
+
+.blog .right .sub .form{
+    background-color: white;
+    padding: 10px;
+}
+.blog .right .sub .form p{
+    font-size: 11px;
+    padding-bottom: 10px;
+}
+.blog .right .sub .form input{
+    width: 100%;
+    padding: 8px 10px;
+    background: none;
+    border: 1px solid rgb(135, 133, 133);
+    font-size: 10px;
+    margin-bottom: 8px;
+}
+.blog .right .sub .form button{
+    width: 100%;
+    padding: 7px 0;
+    background-color: red;
+    border: none;
+    color: white;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+
+.footer{
+    background-color: rgba(0, 0, 0, 0.514);
+    width: 100%;
+    height: 200px;
+    padding: 30px 0 0 30px;
+}
+
+.footer button{
+    padding: 6px 19px;
+    font-size: 11px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.footer button i{
+    padding-right: 10px;
+}
+
+.footer p{
+    font-size: 10px;
+    color: white;
+    padding-top: 15px;
+}
+.footer p a{
+    color: white;
+}
+
+
+@media screen and (max-width:800px) {
+    .blog{
+        display: block;
+    }
+    .blog .left{
+        width: 100%;
+    }
+    .blog .right{
+        width: 100%;
+        margin: 0;
+    }
+
+    .blog .right .post .col img {
+        width: 10%;
+    }
+}
+@media screen and (max-width:600px) {
+    .blog .right .post .col img {
+        width: 15%;
+    }   
+
+     .footer{
+        height: 160px;
+    } 
+}
+
+@media screen and (max-width:600px){
+    nav{
+        display: none;
+    }
+    .hero p{
+        font-size: 25px;
+    }
+    .hero h3{
+        font-size: 30px;
+    }
+}
