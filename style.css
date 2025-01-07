@@ -167,7 +167,7 @@ nav .search a {
   padding: 4px 7px;
   cursor: pointer;
 }
-/* .blog .left .dec .btn .btn2:hover {
+.blog .left .dec .btn .btn2:hover {
   background-color: #b7b4b4;
   color: black;
   font-weight: bold;
@@ -307,7 +307,7 @@ nav .search a {
 .blog .right .insp .img .to img {
   width: 50%;
   padding-right: 10px;
-} */
+}
 
 .blog .right .foll {
   width: 100%;
