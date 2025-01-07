@@ -167,11 +167,11 @@ nav .search a {
   padding: 4px 7px;
   cursor: pointer;
 }
-/* .blog .left .dec .btn .btn2:hover {
+.blog .left .dec .btn .btn2:hover {
   background-color: #b7b4b4;
   color: black;
   font-weight: bold;
-} */
+}
 .blog .left .dec .btn .btn2 span {
   background-color: white;
   color: black;
