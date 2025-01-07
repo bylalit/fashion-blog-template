@@ -115,7 +115,7 @@ nav .search a{
     font-size: 13px;
     padding-top: 5px;
 }
-/* .blog .left p{
+.blog .left p{
     text-align: center;
     font-size: 9px;
     padding-bottom: 10px;
@@ -133,7 +133,7 @@ nav .search a{
     text-align: start;
     line-height: 13px;
     padding: 8px 3px;
-} */
+}
 
 .blog .left .dec .btn{
     display: flex;
