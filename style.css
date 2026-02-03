@@ -409,7 +409,7 @@ nav .search a {
   }
 
   .blog .right .post .col img {
-    width: 10%;
+    width: 9%;
   }
 }
 @media screen and (max-width: 600px) {
@@ -427,7 +427,7 @@ nav .search a {
     display: none;
   }
   .hero p {
-    font-size: 25px;
+    font-size: 24px;
   }
   .hero h3 {
     font-size: 30px;
